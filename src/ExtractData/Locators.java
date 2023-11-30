@@ -3,7 +3,24 @@ package ExtractData;
 import org.openqa.selenium.By;
 
 public class Locators {
+	
+	
+    public static String downloadFilePath = "C:\\Users\\gopi\\Documents\\BaseRent Update Files\\New folder";
+	public static String username= "mds0418@gmail.com";
+	public static String password="KRm#V39fecMDGg#";
+	public static String URL="https://app.propertyware.com/pw/login.jsp";
+	public static String[] LeaseAgreementFileNames = {"RT Renewal Signed","RT - RENEWAL","RT_Full_Lease","Full Lease -","RENEWAL","renewal_","Renewal","Full_Lease","Full"};
+	
 
+	
+	
+	public static By usernameXpath= By.id("loginEmail");
+	public static By passwordXpath= By.name("password");
+	public static By signInButton= By.xpath("//*[@class=\"button login-button\"]");
+	public static By loginError = By.xpath("//*[@class='toast toast-error']");
+	
+	
+	
 	public static By searchbox = By.name("eqsSearchText");
 	public static By dashboardsTab = By.linkText("Dashboards");
 	public static By searchingLoader = By.xpath("//*[@id='eqsResult']/h1");

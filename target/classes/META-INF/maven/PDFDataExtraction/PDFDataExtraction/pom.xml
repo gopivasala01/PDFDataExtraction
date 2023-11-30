@@ -4,6 +4,11 @@
   <artifactId>PDFDataExtraction</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
+	   <dependency>
+		    <groupId>io.github.bonigarcia</groupId>
+		    <artifactId>webdrivermanager</artifactId>
+		    <version>5.5.3</version>
+	</dependency>
 		<dependency>
 		    <groupId>org.seleniumhq.selenium</groupId>
 		    <artifactId>selenium-java</artifactId>
